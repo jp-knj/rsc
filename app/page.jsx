@@ -23,7 +23,7 @@ async function Albums() {
 export default async function Page() {
   return (
     <>
-      <h1>Spotifn’t</h1>
+      <h1>Spotify’t</h1>
       <Suspense fallback="Getting albums">
         {/* @ts-expect-error 'Promise<Element>' is not a valid JSX element. */}
         <Albums />
