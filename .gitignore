@@ -1,1 +1,4 @@
 .idea
+
+# Compiled source
+.DS_Store
