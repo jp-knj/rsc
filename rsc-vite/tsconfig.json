@@ -9,7 +9,10 @@
     "incremental": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
-    "lib": ["ES2022"],
+    "lib": [
+      "ES2022",
+      "dom"
+    ],
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "noUncheckedIndexedAccess": true,
@@ -19,7 +22,8 @@
     "strict": true,
     "target": "ES2018",
     "types": [],
-    "useDefineForClassFields": true
+    "useDefineForClassFields": true,
+    "allowImportingTsExtensions": true
   },
   "exclude": [],
   "include": ["./*.ts", "src"]
