@@ -1,0 +1,10 @@
+{
+	"type": "module",
+	"dependencies": {
+		"@hono/node-server": "1.11.4",
+		"hono": "4.4.9"
+	},
+	"devDependencies": {
+		"@types/node": "20.14.9"
+	}
+}
