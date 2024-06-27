@@ -1,6 +1,7 @@
 {
 	"type": "module",
 	"scripts": {
+		"build": "vite build -c vite-node.config.ts",
 		"dev": "vite-node -c vite-node.config.ts -w ./src/NodeServer.tsx"
 	},
 	"dependencies": {
