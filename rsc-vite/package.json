@@ -14,6 +14,8 @@
 		"@types/node": "20.14.9",
 		"@types/react": "npm:types-react@beta",
 		"@types/react-dom": "npm:types-react-dom@beta",
+		"@vitejs/plugin-react": "4.3.1",
+		"typescript": "5.5.2",
 		"vite": "5.3.1",
 		"vite-node": "1.6.0"
 	}
